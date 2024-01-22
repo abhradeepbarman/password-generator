@@ -252,6 +252,24 @@ h1 {
     box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
 }
 
+.slider::-moz-range-thumb {
+    position: relative;
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: var(--vb-yellow);
+    cursor: pointer;
+    margin-top: -3px;
+    box-shadow: 0px 0px 20px 0px rgba(255, 229, 61, 0.50);
+    transition: all 100ms ease;
+}
+  
+.slider::-moz-range-thumb:hover {
+    outline: 2px solid var(--vb-yellow);
+    box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
+}
+
 
 .resetBtn {
     width: 25%;
